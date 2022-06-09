@@ -9,7 +9,6 @@ function ListKontak() {
 
   useEffect(() => {
     //panggil action get listkontak
-    console.log("1. use effect components did mount");
     dispatch(getListKontak());
   }, [dispatch]);
   return (
